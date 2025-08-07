@@ -1,0 +1,7 @@
+requests
+openai
+python-dateutil
+packaging
+airtable-python-wrapper
+fastapi
+dotenv
