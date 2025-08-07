@@ -12,8 +12,8 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 openai.api_key = OPENAI_API_KEY
 
 # ---- Your Airtable setup goes here ----
-AIRTABLE_API_KEY = 'patLT7zSw8QEiyUoq.36531874fc35732f40a89ff83bb5cadec26ba2bbe85e44686f04c5d2be2ffb22'
-BASE_ID = 'apptYweCILGTeVvB6'
+AIRTABLE_API_KEY = os.getenv('AIRTABLE_API_KEY')
+BASE_ID = os.getenv('BASE+ID')
 APPLICANTS_TABLE = 'Applicants'
 HEADERS = {
     "Authorization": f"Bearer {AIRTABLE_API_KEY}",
